@@ -18,8 +18,12 @@
     header {
       background: #0d1117;
       color: white;
-      padding: 2rem 1rem;
+      padding: 2rem 1rem 1rem;
       text-align: center;
+    }
+    header img {
+      width: 100px;
+      margin-bottom: 1rem;
     }
     header h1 {
       font-size: 2.5rem;
@@ -38,6 +42,9 @@
       margin-bottom: 1rem;
       color: #0d1117;
     }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
     .cta {
       margin-top: 2rem;
       text-align: center;
@@ -54,6 +61,25 @@
     .cta a:hover {
       background: #005582;
     }
+    .contact {
+      margin-top: 2rem;
+    }
+    .contact p {
+      margin: 0.3rem 0;
+    }
+    .social-links {
+      margin-top: 1rem;
+    }
+    .social-links a {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #0d1117;
+      transition: color 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #0077b5;
+    }
     footer {
       background: #0d1117;
       color: white;
@@ -62,11 +88,13 @@
       margin-top: 3rem;
     }
   </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
   <header>
-    <h1>Tecxzo</h1>
+    <img src="transCom.png" alt="Tecxzo Logo" />
+    <h1>TecxZo</h1>
     <p>Innovate Beyond Limits</p>
   </header>
 
@@ -89,6 +117,17 @@
       <a href="https://www.linkedin.com/company/tecxzo/" target="_blank">
         Visit Us on LinkedIn
       </a>
+    </div>
+
+    <div class="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <p>📞 +91 74831 23204</p>
+      <p>📧 tecxzo.dev@gmail.com</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/company/tecxzo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      </div>
     </div>
   </section>
 
