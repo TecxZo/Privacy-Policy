@@ -42,9 +42,45 @@
       margin-bottom: 1rem;
       color: #0d1117;
     }
-    ul li {
-      margin-bottom: 0.5rem;
+
+    .post-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      margin-bottom: 2rem;
     }
+    .post-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .post-content {
+      padding: 1rem;
+    }
+    .post-content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #0d1117;
+    }
+    .post-content p {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .post-content a {
+      display: inline-block;
+      background: #0077b5;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      transition: background 0.3s ease;
+    }
+    .post-content a:hover {
+      background: #005582;
+    }
+
     .cta {
       margin-top: 2rem;
       text-align: center;
@@ -93,17 +129,72 @@
 <body>
 
   <header>
-    <img src="transCom.png" alt="Tecxzo Logo" />
-    <h1>TecxZo</h1>
+    <img src="tecxzologo.png" alt="Tecxzo Logo" />
     <p>Innovate Beyond Limits</p>
   </header>
 
-  <section>
+  <section class="recent-posts">
+    <h2 class="section-title">Recent Posts</h2>
+  
+    <!-- Post 1: DayStories Launch -->
+    <div class="post-card">
+      <img src="daystories-launch.jpg" alt="DayStories Launch Banner" />
+      <div class="post-content">
+        <h3>📅 We’re Launching DayStories on July 21st, 2025!</h3>
+        <p>
+          DayStories — your personal diary and memory capsule app — will be available on the Google Play Store starting July 21st, 2025! 🚀<br />
+          Closed testing is going great and early feedback has been heartwarming. Let’s make memories that last! 💙
+        </p>
+        <p style="font-size: 0.85rem; color: #555;">#DayStories #ProductLaunch #TimeCapsules #JournalingApp #AndroidApp #GooglePlay #Tecxzo #FlutterApp #StartupLife #MentalWellbeing #ClosedTesting #LaunchReady</p>
+        <a href="https://www.linkedin.com/posts/tecxzo_daystories-update" target="_blank">Read on LinkedIn</a>
+      </div>
+    </div>
+  
+    <!-- Post 2: Feature Update -->
+    <div class="post-card">
+      <div class="post-content">
+        <h3>📲 What’s New in DayStories – Big Update!</h3>
+        <p>
+          We're thrilled to roll out our latest release packed with powerful features to elevate your journaling experience:<br /><br />
+          🖼️ Images + Text in Diary<br />
+          🎙️ Smart Mic Integration<br />
+          ☁️ Full Backup Support<br />
+          🎨 Refined UI<br />
+          📊 Better Ad Experience<br />
+          🛠️ Performance & Stability Boost<br /><br />
+          Thanks to our users for the love — we’re just getting started! ✨
+        </p>
+        <p style="font-size: 0.85rem; color: #555;">#DayStories #Tecxzo #FlutterDev #AppUpdate #JournalingApp #ProductDesign #GoogleDriveBackup</p>
+        <a href="https://www.linkedin.com/posts/tecxzo_daystories-update" target="_blank">Read on LinkedIn</a>
+      </div>
+    </div>
+  
+    <!-- Post 3: Why Time Capsules -->
+    <div class="post-card">
+      <div class="post-content">
+        <h3>⏳ Why Time Capsules in DayStories?</h3>
+        <p>
+          Because some stories are meant for later. Whether it’s a birthday message, a personal goal, or a heartfelt note — Time Capsules let you write for the future you. Open them on a special day and relive moments frozen in time.<br /><br />
+          <strong>Why in DayStories?</strong><br />
+          Because DayStories is more than just a diary. It's your personal time machine — a place where you can capture memories, lock them away, and revisit them with intention.<br /><br />
+          ✅ It’s journaling with a purpose.<br />
+          ✅ It’s nostalgia, powered by intention.
+        </p>
+        <p style="font-size: 0.85rem; color: #555;">#DayStories #TimeCapsules #ProductLaunch #StartupLaunch #AndroidApp #GooglePlay #Tecxzo #FutureYou #JournalingApp #MentalWellness #DailyReflection</p>
+        <a href="https://www.linkedin.com/posts/tecxzo_daystories-update" target="_blank">Read on LinkedIn</a>
+      </div>
+    </div>
+  </section>
+ <section> 
+
     <h2 class="section-title">About Us</h2>
     <p>
       Tecxzo is a dynamic tech-driven company dedicated to solving modern challenges through innovative digital solutions. 
       From mobile apps to scalable platforms, we're committed to building seamless, impactful technology experiences.
     </p>
+    </section>
+
+    <section>
 
     <h2 class="section-title">What We Do</h2>
     <ul>
